@@ -1,8 +1,13 @@
 import streamlit as st
 import pandas as pd
-from trading_bot.data.fetch_data import fetch_data
-from trading_bot.strategies.moving_average import moving_average_strategy
-from trading_bot.backtesting.backtest import MovingAverageStrategy
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from data.fetch_data import fetch_data
+from strategies.moving_average import moving_average_strategy
+from backtesting.backtest import MovingAverageStrategy
+
 import backtrader as bt
 import matplotlib.pyplot as plt
 
