@@ -66,8 +66,6 @@ Go to Streamlit Cloud and log in.
 Click on "New app" and select your GitHub repository.
 Set the entry point to ui/app.py and deploy.
 
-
-
 ## Contribution
 Contributions are welcome! Please follow these steps to contribute:
 
@@ -79,8 +77,6 @@ git checkout -b feature-branch
 Make Your Changes: Implement your changes and test them locally.
 Submit a Pull Request: Push your changes to your fork and submit a pull request to the main repository.
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgments
 
