@@ -1,88 +1,79 @@
-# Algorithmic Trading Bot
+# 📈 **Algorithmic Trading Bot**
 
-## Overview
+![Python](https://img.shields.io/badge/Python-3.8-blue?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-Framework-red?style=for-the-badge&logo=streamlit)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-green?style=for-the-badge)
 
-The Algorithmic Trading Bot is a Python-based trading application that leverages quantitative strategies to automate trading decisions. This bot implements a Moving Average strategy to trade stocks or cryptocurrencies based on historical data. The bot features a modern UI built with Streamlit for interactive visualization and testing of trading strategies.
+---
 
-## Features
+## 🚀 **Overview**
 
-- **Fetch Historical Data**: Retrieve stock or cryptocurrency data using Yahoo Finance.
-- **Apply Moving Average Strategy**: Implement moving average crossover strategies for trading signals.
-- **Backtesting**: Test trading strategies on historical data to evaluate performance.
-- **Interactive UI**: Use Streamlit to visualize stock data, trading signals, and backtest results.
+The **Algorithmic Trading Bot** is a Python-based application that automates trading decisions using quantitative strategies. It features a Moving Average strategy to trade stocks or cryptocurrencies based on historical data. The bot also includes a modern UI built with **Streamlit**, making it easy to visualize trading signals and backtest results interactively.
 
-## Installation
+This bot is designed to help traders analyze the market and automate trades efficiently. Whether you're trading stocks or cryptocurrencies, this bot can save time and reduce manual intervention.
+
+---
+
+## 🔧 **Features**
+
+- 📊 **Fetch Historical Data**: Retrieve stock or cryptocurrency data using the **Yahoo Finance** API.
+- 📈 **Moving Average Strategy**: Implement moving average crossover strategies to generate trading signals.
+- 🧪 **Backtesting**: Test your trading strategies on historical data to evaluate performance before deploying them.
+- 🖥️ **Interactive UI**: A clean, modern UI built with **Streamlit** for visualizing stock data, trading signals, and backtest results.
+
+---
+
+## 💻 **Installation**
 
 ### 1. Clone the Repository
+    
+    git clone https://github.com/Heet852003/trading_bot.git
+    cd trading_bot
 
-git clone https://github.com/Heet852003/trading_bot.git
-cd trading_bot
-
-### 2. Set Up a Virtual Environment
-
-Create and activate a virtual environment:
-python -m venv venv
-
-On Windows:
-
-.\venv\Scripts\activate
+### 2. Set Up a Virtual Environment :Create and activate a virtual environment
+    python -m venv venv
+On Windows
+ 
+    python -m venv venv.\venv\Scripts\activate
 
 On macOS/Linux:
-
-source venv/bin/activate
+  ```bash
+  source venv/bin/activate
+```
 
 ### 3. Install Dependencies
-
 Install the required packages:
-pip install -r requirements.txt
 
-## Usage
+   ```bash
+pip install -r requirements.txt
+```
+
+## 🏃‍♂️ **Usage**
 
 ### 1. Run the Bot Locally
-
-To test the bot locally, run:
+To test the bot locally, run the main script:
+```bash
 python trading_bot.py
-
-This will execute the main script, fetching data, applying the strategy, and plotting the results.
+```
+This will fetch data, apply the strategy, and plot the results using matplotlib.
 
 ### 2. Run the Streamlit App
-
-To use the Streamlit interface, run:
+To launch the Streamlit UI, run:
+```bash
 streamlit run ui/app.py
-
+```
 This will start the Streamlit server and open the application in your web browser.
 
 ### 3. Deploy on Streamlit Cloud
-
-Push your code to GitHub:
-
+Push Your Code to GitHub:
+```bash
 git add .
 git commit -m "Initial commit with Streamlit UI"
 git push origin master
-
+```
 Deploy on Streamlit Cloud:
 
-Go to Streamlit Cloud and log in.
-Click on "New app" and select your GitHub repository.
-Set the entry point to ui/app.py and deploy.
-
-## Contribution
-Contributions are welcome! Please follow these steps to contribute:
-
-Fork the Repository: Click the "Fork" button on GitHub to create your own copy of the repository.
-Create a Branch: Make a new branch for your feature or fix.
-
-git checkout -b feature-branch
-
-Make Your Changes: Implement your changes and test them locally.
-Submit a Pull Request: Push your changes to your fork and submit a pull request to the main repository.
-
-
-## Acknowledgments
-
-Yahoo Finance for providing the stock data.
-Backtrader for the backtesting framework.
-Streamlit for the interactive UI framework.
-
-## Contact
-For any questions or feedback, please contact mehtaheet5@gmail.com.
+- Go to Streamlit Cloud and log in.
+- Click on "New app" and select your GitHub repository.
+- Set the entry point to ui/app.py and deploy.
